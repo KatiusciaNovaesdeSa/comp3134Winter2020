@@ -1,0 +1,50 @@
+What is the definition os server port?
+It is a port to gain access to a server. It is a number and is referred to as a port numb
+In TCP/IP and UDP networks, a port is an endpoint to a logical connection and the way a client program specifies a specific server program on a computer in a network. The port number identifies what type of port it is. For example, port 80 is used for HTTP traffic.  A port number is a way to identify a specific process to which an Internet or other network message is to be forwarded when it arrives at a server. 
+
+
+What is server port range?
+Port numbers range from 0 to 65535, but only port numbers 0 to 1023 are reserved for privileged services and designated as well-known ports. 
+Ports are numbered for consistency and programming. The most commonly used and best known ports are those numbered 0 to 1023 dedicated for Internet use, but they can extend far higher for specialized purposes. Each port set or range is assigned specialized jobs or functions, and that's generally all they do. Usually, all identical system services or functions use the same port numbers on the receiving servers..
+
+
+How many bits does number above represent?
+16 bits
+
+
+State 10 common server ports
+Port Number
+Usage
+
+20
+File Transfer Protocol (FTP) Data Transfer
+
+21
+File Transfer Protocol (FTP) Command Control
+
+22
+Secure Shell (SSH)
+
+23
+Telnet - Remote login service, unencrypted text messages
+
+25
+Simple Mail Transfer Protocol (SMTP) E-mail Routing
+
+53
+Domain Name System (DNS) service
+
+80
+Hypertext Transfer Protocol (HTTP) used in World Wide Web
+
+110
+Post Office Protocol (POP3) used by e-mail clients to retrieve e-mail from a server
+
+119
+Network News Transfer Protocol (NNTP)
+
+123
+Network Time Protocol (NTP)
+
+443
+HTTP Secure (HTTPS) HTTP over TLS/SSL

@@ -1,0 +1,60 @@
+#output1 
+#apple.com
+
+root@lamp-s-4vcpu-8gb-nyc1-01:~# nmap 17.178.96.59
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:39 UTC
+Nmap scan report for www.hopstop.se (17.178.96.59)
+Host is up (0.061s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 13.35 seconds
+
+#output2 - single port
+#canadapost.ca
+
+root@lamp-s-4vcpu-8gb-nyc1-01:~# nmap -p 80 23.199.201.241
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:45 UTC
+Nmap scan report for a23-199-201-241.deploy.static.akamaitechnologies.com (23.199.201.241)
+Host is up (0.0022s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.57 seconds
+
+
+#output3 - range of ports
+#digitalocean.com
+root@lamp-s-4vcpu-8gb-nyc1-01:~# nmap -p 80-443 104.16.182.15
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:47 UTC
+Nmap scan report for 104.16.182.15
+Host is up (0.0019s latency).
+Not shown: 362 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.96 seconds
+
+
+#output4 - fast
+#twitter.com
+
+root@lamp-s-4vcpu-8gb-nyc1-01:~# nmap -F 104.244.42.193
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:49 UTC
+Nmap scan report for 104.244.42.193
+Host is up (0.021s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 3.57 seconds
+

@@ -1,0 +1,2 @@
+(base) Owners-MacBook-Air:~ owner$ sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist 
+(base) Owners-MacBook-Air:~ owner$ ssh root@10.4.82.209 -p 2222

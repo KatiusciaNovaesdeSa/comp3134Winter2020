@@ -1,0 +1,16 @@
+#using  mac network utilities
+
+
+Ping has started…
+
+PING 198.199.90.229 (198.199.90.229): 56 data bytes
+Request timeout for icmp_seq 0
+64 bytes from 198.199.90.229: icmp_seq=1 ttl=51 time=21.612 ms
+64 bytes from 198.199.90.229: icmp_seq=2 ttl=51 time=17.594 ms
+64 bytes from 198.199.90.229: icmp_seq=3 ttl=51 time=17.760 ms
+64 bytes from 198.199.90.229: icmp_seq=4 ttl=51 time=18.278 ms
+64 bytes from 198.199.90.229: icmp_seq=5 ttl=51 time=18.716 ms
+64 bytes from 198.199.90.229: icmp_seq=6 ttl=51 time=18.796 ms
+64 bytes from 198.199.90.229: icmp_seq=7 ttl=51 time=21.870 ms
+64 bytes from 198.199.90.229: icmp_seq=8 ttl=51 time=18.381 ms
+64 bytes from 198.199.90.229: icmp_seq=9 ttl=51 time=17.750 ms

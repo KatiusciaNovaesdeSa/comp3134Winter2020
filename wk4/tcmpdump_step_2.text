@@ -1,0 +1,11 @@
+root@lamp-s-4vcpu-8gb-nyc1-01:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:54:12.929655 IP lamp-s-4vcpu-8gb-nyc1-01.ssh > 198.96.85.163.54922: Flags [P.], seq 2900178767:2900178955, ack 980245281, win 349, options [nop,nop,TS val 874953905 ecr 926530032], length 188
+18:54:12.931131 IP lamp-s-4vcpu-8gb-nyc1-01.ssh > 198.96.85.163.54922: Flags [P.], seq 188:424, ack 1, win 349, options [nop,nop,TS val 874953907 ecr 926530032], length 236
+18:54:12.931332 IP lamp-s-4vcpu-8gb-nyc1-01.ssh > 198.96.85.163.54922: Flags [P.], seq 424:636, ack 1, win 349, options [nop,nop,TS val 874953907 ecr 926530032], length 212
+18:54:12.931443 IP lamp-s-4vcpu-8gb-nyc1-01.ssh > 198.96.85.163.54922: Flags [P.], seq 636:848, ack 1, win 349, options [nop,nop,TS val 874953907 ecr 926530032], length 212
+18:54:12.931512 IP lamp-s-4vcpu-8gb-nyc1-01.ssh > 198.96.85.163.54922: Flags [P.], seq 848:1060, ack 1, win 349, options [nop,nop,TS val 874953907 ecr 926530032], length 212
+5 packets captured
+6 packets received by filter
+0 packets dropped by kernel

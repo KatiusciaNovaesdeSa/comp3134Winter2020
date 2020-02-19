@@ -1,0 +1,114 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+17:39:24.391864 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 838259847:838259955, ack 172227823, win 310, options [nop,nop,TS val 2178569004 ecr 438323158], length 108
+17:39:24.391992 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 108:144, ack 1, win 310, options [nop,nop,TS val 2178569005 ecr 438323158], length 36
+17:39:24.392050 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 144:252, ack 1, win 310, options [nop,nop,TS val 2178569005 ecr 438323158], length 108
+17:39:24.392081 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 252:288, ack 1, win 310, options [nop,nop,TS val 2178569005 ecr 438323158], length 36
+17:39:24.393919 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 108, win 2854, options [nop,nop,TS val 438323177 ecr 2178569004], length 0
+17:39:24.394019 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 144, win 2854, options [nop,nop,TS val 438323177 ecr 2178569005], length 0
+17:39:24.394511 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 252, win 2852, options [nop,nop,TS val 438323177 ecr 2178569005], length 0
+17:39:24.398755 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 288:1532, ack 1, win 310, options [nop,nop,TS val 2178569011 ecr 438323177], length 1244
+17:39:24.398851 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 1532:1744, ack 1, win 310, options [nop,nop,TS val 2178569011 ecr 438323177], length 212
+17:39:24.398918 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 1744:1956, ack 1, win 310, options [nop,nop,TS val 2178569011 ecr 438323177], length 212
+17:39:24.398976 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 1956:2168, ack 1, win 310, options [nop,nop,TS val 2178569012 ecr 438323177], length 212
+17:39:24.399041 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 2168:2380, ack 1, win 310, options [nop,nop,TS val 2178569012 ecr 438323177], length 212
+17:39:24.399091 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 2380:2592, ack 1, win 310, options [nop,nop,TS val 2178569012 ecr 438323177], length 212
+17:39:24.399149 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 2592:2804, ack 1, win 310, options [nop,nop,TS val 2178569012 ecr 438323177], length 212
+17:39:24.399194 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 2804:3016, ack 1, win 310, options [nop,nop,TS val 2178569012 ecr 438323177], length 212
+17:39:24.399239 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 3016:3228, ack 1, win 310, options [nop,nop,TS val 2178569012 ecr 438323177], length 212
+17:39:24.399283 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 3228:3440, ack 1, win 310, options [nop,nop,TS val 2178569012 ecr 438323177], length 212
+17:39:24.401144 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1532, win 2837, options [nop,nop,TS val 438323183 ecr 2178569011], length 0
+17:39:24.401173 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 3440:3652, ack 1, win 310, options [nop,nop,TS val 2178569014 ecr 438323183], length 212
+17:39:24.401187 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1744, win 2833, options [nop,nop,TS val 438323183 ecr 2178569011], length 0
+17:39:24.401386 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 3652:4192, ack 1, win 310, options [nop,nop,TS val 2178569014 ecr 438323183], length 540
+17:39:24.401432 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 4192:4404, ack 1, win 310, options [nop,nop,TS val 2178569014 ecr 438323183], length 212
+17:39:24.401471 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 4404:4616, ack 1, win 310, options [nop,nop,TS val 2178569014 ecr 438323183], length 212
+17:39:24.401940 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1956, win 2853, options [nop,nop,TS val 438323183 ecr 2178569011], length 0
+17:39:24.401956 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 4616:4828, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323183], length 212
+17:39:24.401987 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2168, win 2849, options [nop,nop,TS val 438323183 ecr 2178569012], length 0
+17:39:24.401992 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2380, win 2846, options [nop,nop,TS val 438323183 ecr 2178569012], length 0
+17:39:24.401995 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2592, win 2843, options [nop,nop,TS val 438323183 ecr 2178569012], length 0
+17:39:24.401997 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2804, win 2839, options [nop,nop,TS val 438323183 ecr 2178569012], length 0
+17:39:24.402000 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3016, win 2853, options [nop,nop,TS val 438323183 ecr 2178569012], length 0
+17:39:24.402068 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 4828:6024, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323183], length 1196
+17:39:24.402107 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 6024:6236, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323183], length 212
+17:39:24.402145 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 6236:6448, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323183], length 212
+17:39:24.402182 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 6448:6660, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323183], length 212
+17:39:24.402217 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 6660:6872, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323183], length 212
+17:39:24.402253 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 6872:7084, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323183], length 212
+17:39:24.402289 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 7084:7296, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323183], length 212
+17:39:24.402324 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 7296:7508, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323183], length 212
+17:39:24.402350 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3228, win 2853, options [nop,nop,TS val 438323184 ecr 2178569012], length 0
+17:39:24.402356 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3440, win 2849, options [nop,nop,TS val 438323184 ecr 2178569012], length 0
+17:39:24.402378 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 7508:7720, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323184], length 212
+17:39:24.402425 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 7720:8260, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323184], length 540
+17:39:24.402461 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 8260:8472, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323184], length 212
+17:39:24.402496 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 8472:8684, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323184], length 212
+17:39:24.402530 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 8684:8896, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323184], length 212
+17:39:24.402566 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 8896:9108, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323184], length 212
+17:39:24.402602 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 9108:9320, ack 1, win 310, options [nop,nop,TS val 2178569015 ecr 438323184], length 212
+17:39:24.404786 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3652, win 2853, options [nop,nop,TS val 438323185 ecr 2178569014], length 0
+17:39:24.404806 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 9320:9532, ack 1, win 310, options [nop,nop,TS val 2178569017 ecr 438323185], length 212
+17:39:24.404818 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4192, win 2848, options [nop,nop,TS val 438323185 ecr 2178569014], length 0
+17:39:24.404902 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 9532:10072, ack 1, win 310, options [nop,nop,TS val 2178569017 ecr 438323185], length 540
+17:39:24.404944 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 10072:10284, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323185], length 212
+17:39:24.404989 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 10284:10504, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323185], length 220
+17:39:24.405255 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4404, win 2844, options [nop,nop,TS val 438323185 ecr 2178569014], length 0
+17:39:24.405267 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 10504:10724, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323185], length 220
+17:39:24.405276 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4616, win 2841, options [nop,nop,TS val 438323185 ecr 2178569014], length 0
+17:39:24.405279 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4828, win 2853, options [nop,nop,TS val 438323185 ecr 2178569015], length 0
+17:39:24.405282 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 6024, win 2834, options [nop,nop,TS val 438323185 ecr 2178569015], length 0
+17:39:24.405292 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 6236, win 2831, options [nop,nop,TS val 438323185 ecr 2178569015], length 0
+17:39:24.405308 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 6448, win 2831, options [nop,nop,TS val 438323185 ecr 2178569015], length 0
+17:39:24.405339 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7084, win 2846, options [nop,nop,TS val 438323185 ecr 2178569015], length 0
+17:39:24.405405 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 10724:12080, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323185], length 1356
+17:39:24.405436 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7296, win 2843, options [nop,nop,TS val 438323185 ecr 2178569015], length 0
+17:39:24.405441 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7508, win 2839, options [nop,nop,TS val 438323185 ecr 2178569015], length 0
+17:39:24.405458 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 12080:12300, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323185], length 220
+17:39:24.405495 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7720, win 2836, options [nop,nop,TS val 438323185 ecr 2178569015], length 0
+17:39:24.405514 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 12300:12840, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323185], length 540
+17:39:24.405521 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 8260, win 2848, options [nop,nop,TS val 438323186 ecr 2178569015], length 0
+17:39:24.405524 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 8472, win 2853, options [nop,nop,TS val 438323186 ecr 2178569015], length 0
+17:39:24.405526 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 8684, win 2849, options [nop,nop,TS val 438323186 ecr 2178569015], length 0
+17:39:24.405527 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 8896, win 2846, options [nop,nop,TS val 438323186 ecr 2178569015], length 0
+17:39:24.405529 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 9108, win 2853, options [nop,nop,TS val 438323186 ecr 2178569015], length 0
+17:39:24.405604 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 12840:14036, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323186], length 1196
+17:39:24.405641 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 14036:14256, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323186], length 220
+17:39:24.405680 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 14256:14476, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323186], length 220
+17:39:24.405715 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 14476:14696, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323186], length 220
+17:39:24.405751 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 14696:14916, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323186], length 220
+17:39:24.405787 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 14916:15136, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323186], length 220
+17:39:24.405822 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 15136:15356, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323186], length 220
+17:39:24.405856 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 15356:15576, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323186], length 220
+17:39:24.405898 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 15576:15796, ack 1, win 310, options [nop,nop,TS val 2178569018 ecr 438323186], length 220
+17:39:24.405934 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 15796:16016, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.405969 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 16016:16236, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406004 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 16236:16456, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406039 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 16456:16676, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406073 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 16676:16896, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406112 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 16896:17116, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406149 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 17116:17336, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406184 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 17336:17556, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406224 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 17556:17776, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406260 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 17776:17996, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406294 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 17996:18216, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406331 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 18216:18436, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406367 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 18436:18656, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406403 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 18656:18876, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 220
+17:39:24.406440 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 18876:19088, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 212
+17:39:24.406468 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 19088:19124, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 36
+17:39:24.406501 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 19124:19336, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 212
+17:39:24.406526 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 19336:19372, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 36
+17:39:24.406558 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 19372:19584, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 212
+17:39:24.406586 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 19584:19620, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 36
+17:39:24.406613 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 19620:19832, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 212
+17:39:24.406638 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 19832:19868, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323186], length 36
+17:39:24.406670 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 9532, win 2853, options [nop,nop,TS val 438323188 ecr 2178569017], length 0
+17:39:24.406683 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 19868:20080, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323188], length 212
+17:39:24.406853 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 10072, win 2844, options [nop,nop,TS val 438323188 ecr 2178569017], length 0
+17:39:24.406858 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 20116:20860, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323188], length 744
+17:39:24.406875 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 20860:21072, ack 1, win 310, options [nop,nop,TS val 2178569019 ecr 438323188], length 212
+17:39:24.408359 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 10284, win 2841, options [nop,nop,TS val 438323188 ecr 2178569018], length 0
+17:39:24.408376 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.64531: Flags [P.], seq 21072:22316, ack 1, win 310, options [nop,nop,TS val 2178569021 ecr 438323188], length 1244
+17:39:24.408389 IP 198.96.85.163.64531 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 10504, win 2838, options [nop,nop,TS val 438323188 ecr 2178569018], length 0

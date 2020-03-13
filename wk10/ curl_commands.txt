@@ -1,0 +1,5 @@
+1- curl -X GET 'https://www.dictionary.com/browse/curl'
+2 -  curl -X GET 'https://www.dictionary.com/browse/curlxyz'
+3 - curl -X GET 'http://http://68.183.200.7//sending_info_to_app_1.php?q=helloworld'
+4 - curl -X GET "http://http://68.183.200.7//sending_info_to_app_1.php?q=<script>document.write('overwrite_everything')</script>"
+5 - curl -X GET "http://http://68.183.200.7//sending_info_to_app_2.php?q=<script>document.write('overwrite_everything')</script>"

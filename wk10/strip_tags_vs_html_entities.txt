@@ -1,0 +1,1 @@
+The difference is when I used htmlentities( ), it converts the tags to text and display in the brownser, and when  strip_tags( ) is used all tags fom the string is removed.

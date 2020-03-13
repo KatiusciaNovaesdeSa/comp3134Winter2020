@@ -1,0 +1,7 @@
+1-  Word definition is displayed, and url change , now  it ends with the word I chose.
+
+2-  Page loads, but show a msg 'No result found..', and url change to ending /misspelling?term=aplet&s=t.   Also, at the botton show a sugestion word 'Did you men applet?'
+
+3- the brownser present 'Results for <script>alert('hello')</script>:' with some suggestions on the button for results thar contain alert('hello') on the script.  url now change to noresult?term=<script>alert(%27hello%27)<%2Fscript>&s=ts
+
+4- The brownser also present 'Results for <script>alert('hello')</script>:' with some suggestions on the button for results thar contain alert('hello') on the script.   The same as typing in the form field.

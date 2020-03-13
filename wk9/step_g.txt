@@ -1,0 +1,1 @@
+By using 'echo' to display the html content and // for commenting in PHP, to avoid show html comments. 

@@ -1,0 +1,8 @@
+First thih to do is disable the display erros, because hackers might get valuable information from the errors!!
+
+• Should not be able to view files and folders before html directory
+o  I used basename( ), that you return only the filename part of given path.
+• Should not attempt to look at folders that do not exists
+o I used file_exists() to check if directory exists.
+• BONUS, do not allow user to pass a filename
+o Looked at the dot and search of there's a file extension, and set the header to 'Forbidden'

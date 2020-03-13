@@ -1,0 +1,5 @@
+• What you see on the browser (the issue)
+The html folder, that means that the current directory is one level above that. 
+
+• What sensitive information is given by this page
+The attacker can inject special characters in the query string, exploiting the access to web root folder contents. Injecting JavaScript can possibly result in exposing information in the root folder files.

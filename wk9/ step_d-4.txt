@@ -1,0 +1,7 @@
+• What you see on the browser (the issue)
+I can see all the folders on my droplet server, even the root folder. 
+
+
+• What sensitive information is given by this page
+Attacker can possibly get access to the content of root folder content and be able to 
+navigate the server gives excessive information about the files that are stored there.

@@ -1,0 +1,5 @@
+• What you see on the browser (the issue)
+Warning,  The query string parameter is set, but the directory with this name does not exist. 
+
+• What sensitive information is given by this page
+The contents of the directory. Some of the files might have compromising names or contain sensitiv information. 

@@ -1,0 +1,19 @@
+
+<h1>Reflected XXS<h1>
+
+<form  method="POST" onsubmit="show()">>
+    <input type="text" name="input" id="input">
+    <input type="submit">>
+</form>
+
+<div id='show'></div>
+
+<script>
+function show(){
+        var input = document.getElementById("input").value
+
+        document.getElementById("show").innerHTML = input
+
+        event.preventDefault();
+}
+

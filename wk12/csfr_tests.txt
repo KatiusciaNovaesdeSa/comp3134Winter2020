@@ -1,0 +1,1 @@
+Notes: csf_form.php sucessfully loggin into csfr_actions.php, for sesson variable and hidden input being the same. while crsf.html does not login, for be missing the session variable. By using session  we can mitigate attacks, as require both pages to acesse the same value.

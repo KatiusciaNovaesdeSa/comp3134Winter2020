@@ -1,0 +1,1 @@
+The content of the txt file dont output as a text , it shows the script tag, that it could be a problem because could allow injections.  The script can be placed and cant be seing (storedxss.php for ex), that gives way to attacks. The attacker can send XSS script to the vulnerable website, exploiting a non-validated input field. 

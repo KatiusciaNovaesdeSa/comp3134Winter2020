@@ -1,0 +1,6 @@
+1) Does not show any entries. The results are expected because only rows with active=1 will show up. Ben has active=0.
+
+2) Ben  is showing,  even is set as active=0, so it shouldn't.  The query '--' is making mysql ignore everything after, not checking for active value anymore.
+
+3) The SQL  is valid and will return ALL rows from the table, since OR 1=1 is always TRUE.
+The string Ben’ or ‘1’ = ‘1  causes the application to display all records in the database table to the attacker. Its very dangerous since table can contains names and passwords, an attack can also use a union select* statement to obtain users information.
